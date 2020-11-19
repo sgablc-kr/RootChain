@@ -1,0 +1,59 @@
+
+ /* ******************** font ******************** */
+ 
+ /* 에스코어 드림 Hvy */
+ @font-face {
+  font-family: 'S-CoreDream-8Heavy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 에스코어 드림 B */
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 에스코어 드림 Reg */
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+ /* ******************** all ******************** */
+
+ *,
+ *::before,
+ *::after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; }
+ 
+ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+   display: block; 
+ }
+ 
+ body {
+  font-family: 'S-CoreDream-4Regular';
+  background: #fff;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+}
+ 
+ h1, h2, h3, h4, h5, h6 {
+   margin-top: 0;
+   margin-bottom: 0.5rem; }
+ 
+ p {
+   margin-top: 0;
+   margin-bottom: 1rem; }
+ 
+
+/* ******************** nav ******************** */ 
