@@ -1,38 +1,290 @@
+
+ /* 
+    Core Color
+    black : #494544
+    blue : #2B76B5
+    skyblue : #EFFAFF
+    grey : #AFABAB
+ */
+ 
+ /* ******************** font ******************** */
+
+ /* 에스코어 드림 Hvy */
+ @font-face {
+  font-family: 'S-CoreDream-8Heavy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gmarket Sans B */
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+/* Gmarket Sans M */
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Gmarket Sans L */
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ /* ******************** all ******************** */
+
+ *,
+ *::before,
+ *::after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; 
+ }
+ 
+ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+   display: block; 
+ }
+
+body{
+  font-family: "Roboto", Arial, sans-serif;
+}
+ 
+ h1, h2, h3, h4, h5, h6 {
+   margin-top: 0;
+   margin-bottom: 0.5rem; 
+}
+ 
+p {
+   margin-top: 0;
+   margin-bottom: 1rem; 
+}
+
 .App {
-  text-align: center;
+  font-family: "Roboto", Arial, sans-serif;
+  background: #fff;
+  font-size: 17px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #494544;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn{
+    padding: 0.5em 2em !important;
+    color: white !important;
+    background-color: #2B76B5 !important;
+    border: 3px solid #2B76B5 !important;
+    font-weight: 700;
+    box-shadow: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn.btn-primary{
+    color: #2B76B5 !important;
+    background-color: transparent !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn:hover{
+  animation: pulse; 
+  animation-duration: 1s; 
+}
+ 
+
+/* ******************** nav ******************** */ 
+
+.navbar{
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  font-weight: 500 !important;
+  font-size: 15px;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #494544;
+  font-weight: 500;
+  opacity: 1 !important; 
+}
+
+.nav-item:hover, .nav-link:hover{
+  color: #2B76B5 !important;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem; 
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+  text-decoration: none;  
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  cursor: pointer; 
+}
+
+.R-logo:hover {
+  animation: pulse; 
+  animation-duration: 1s; 
+}
+
+/* ******************** footer ******************** */ 
+
+.R-footer, #contact-web:visited {
+  font-size: 15px;
+  padding: 4em 0 0 0;
+  background: #2B76B5;
   color: white;
+ }
+
+.R-footer-title{
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.R-footer-right{
+  color: #494544;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#contact-web:hover { 
+  text-decoration: none;
+}
+
+/* ******************** main ******************** */ 
+
+.main-wrap {
+  padding-top: 3em;
+  width: 100%;
+  height: 700px;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+  z-index: 0; 
+  background-color: #EFFAFF;
+}
+
+.slider-text {
+  height: 700px;
+  position: relative; 
+}
+@media (max-width: 767.98px) {
+  .slider-text {
+    text-align: center !important;
+  } 
+}
+
+.r-main-sub{
+  color: #2B76B5 !important;
+  line-height: 1.3em;
+}
+
+.r-main-title{
+  font-family: 'S-CoreDream-8Heavy';
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.main-back {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.main-back-img{
+  width: 40%;
+  display: block;
+  opacity: 0.8;
+  animation: rotation2 infinite 13s linear;
+} 
+
+.main-front{
+  width: 100%;
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  left: 0;
+  right: 0;
+  display: block;
+}
+.main-front-img{
+  width: 70%;
+  display: block;
+  opacity: 0.5;
+  animation: rotation infinite 33s linear;
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@keyframes rotation2 {
+  from {transform:rotateY(0deg);}
+  to {transform:rotateY(360deg);}                     
+ 
+}
+
+
+/* ******************** contents ******************** */ 
+
+
+.R-section {
+  padding: 6em 0;
+  position: relative; 
+}
+@media (max-width: 767.98px) {
+  .R-section {
+    padding: 6em 0; 
+  } 
+}
+
+.heading-section h2 {
+  font-size: 40px;
+  font-weight: 600; 
+}
+@media (max-width: 767.98px) {
+  .heading-section h2 {
+    font-size: 28px; 
+  } 
+}
+
+.heading-section .subheading {
+  font-size: 1em;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #2B76B5;
+  position: relative; 
+}
+
+.case-container{
+  height: auto;
+  vertical-align: center !important;
+}
+@media (max-width: 767.98px) {
+  .case-container {
+    padding: 1em !important;
+  } 
+}
+
+.case-subject{
+  font-weight: 700;
+  font-size: 1.3em; 
+  line-height: 1.3em;
+
+}
+
+.case-content{
+  font-size: 1em; 
+  line-height: 1.5em;
 }
