@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Case from "./Case.js";
+import Case from "./js/Case.js";
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
                 <img src={process.env.PUBLIC_URL + "/images/bg_text.png"} className="main-back-img mx-auto" alt="main-back" />
               </div>
               <div className="main-front mx-auto">
-                <img src={process.env.PUBLIC_URL + "/images/grey_circle2.png"} className="main-front-img mx-auto" alt="main-front" />
+                <img src={process.env.PUBLIC_URL + "/images/circle.png"} className="main-front-img mx-auto" alt="main-front" />
               </div>
             </div>
             

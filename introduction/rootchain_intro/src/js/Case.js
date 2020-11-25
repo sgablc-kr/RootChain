@@ -20,8 +20,8 @@ class Case extends Component{
           ] 
 
           const caseList = cases.map(rcase => (
-            <div className="case-container p-5">
-              <div className="row">
+            <div className="case-container p-5 block">
+              <div className="row fromLeftIn" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
                 <div className="col-lg-6 img d-flex justify-content-center align-items-center container mb-5">
                   <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
                 </div>

@@ -95,6 +95,19 @@ p {
   animation: pulse; 
   animation-duration: 1s; 
 }
+
+.fromLeftIn {
+  transition: transform 1.0s ease, opacity 1.0s ease;
+  transform: translate(0,0);
+  opacity: 1.0;
+}
+.fromTopOut
+{
+	transition: transform 1.0s ease, opacity 1.0s ease;
+	
+	transform: translate(0,-10px);
+	opacity: 0.0;
+}
  
 
 /* ******************** nav ******************** */ 
@@ -141,10 +154,14 @@ p {
 
 /* ******************** footer ******************** */ 
 
-.R-footer, #contact-web:visited {
+.R-footer {
   font-size: 15px;
   padding: 4em 0 0 0;
   background: #2B76B5;
+  color: white;
+ }
+
+ .R-footer *{
   color: white;
  }
 
@@ -158,6 +175,9 @@ p {
 
 #contact-web:hover { 
   text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  ;
 }
 
 /* ******************** main ******************** */ 
