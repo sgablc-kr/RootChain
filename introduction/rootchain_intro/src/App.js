@@ -39,7 +39,7 @@ function App() {
             
             <div className="col-md-6 d-none d-md-block">
               <div className="main-back mx-auto">
-                <img src={process.env.PUBLIC_URL + "/images/bg_text.png"} className="main-back-img mx-auto" alt="main-back" />
+                <img src={process.env.PUBLIC_URL + "/images/logoS.png"} className="main-back-img mx-auto" alt="main-back" />
               </div>
               <div className="main-front mx-auto">
                 <img src={process.env.PUBLIC_URL + "/images/circle.png"} className="main-front-img mx-auto" alt="main-front" />
