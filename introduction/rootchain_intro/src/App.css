@@ -278,13 +278,23 @@ p {
 }
 
 .case-subject{
+  color: #2B76B5;
+  opacity: 0.9;
   font-weight: 700;
   font-size: 1.3em; 
   line-height: 1.3em;
+  text-transform: capitalize;
 
+}
+
+.case-summary{
+  color: grey;
+  font-size: 0.9em; 
+  line-height: 1em;
 }
 
 .case-content{
   font-size: 1em; 
   line-height: 1.5em;
 }
+
