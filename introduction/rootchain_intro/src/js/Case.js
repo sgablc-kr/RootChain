@@ -8,20 +8,49 @@ class Case extends Component{
               subject: 'Financial power of attorney authentic verification service',
               summary: 'Applied to authentic verification service for financial power of attorney issued by overseas space',
               content: 'Provides a verification service on the issuance of notarized documents of financial power of attorney for overseas spaces based on blockchain. Through this, you can expect to simplify service processing, increase time and space constraints, and prevent forgery and tampering of documents.',
-              information: 'http://www.mofa.go.kr/www/brd/m_4080/view.do?seq=369252&srchFr=&amp;srchTo=&amp;srchWord=&amp;srchTp=&amp;multi_itm_seq=0&amp;itm_seq_1=0&amp;itm_seq_2=0&amp;company_cd=&amp;company_nm='
             },
             {
               img: process.env.PUBLIC_URL + "/images/case/case_gas.png",
               subject: 'Carbon credit transaction history service',
               summary: 'The transaction history of carbon credits is managed through a block chain to ensure transparency in the transaction history',
               content: 'It is a system that manages the history of carbon credits for GHG reduction based on the high reliability and security of blockchain technology. Through this, it is possible to record and track the external business of GHG reduction and carbon credit transaction details in a blockchain, so that carbon credit management and transaction transparency can be secured.',
-              information: 'http://www.sgasol.kr/kr/board/bbs/board.php?bo_table=bodo&wr_id=111'
+            },
+            {
+              img: process.env.PUBLIC_URL + "/images/case/case_medi.png",
+              subject: 'Blockchain-based medical consultation system',
+              summary: 'Medical image AI reading and transmission for telemedicine collaboration through encryption and sharing using blockchain and off-chain',
+              content: "It is a system that utilizes blockchain and off-chain technology to read medical image taken at the patient's treatment site with AI in other regions, and use these AI read medical image again in the filming area. This allows you to check the authenticity of the original medical image, as well as systematically manage the original medical image and AI read medical image."
+            },
+            {
+              img: process.env.PUBLIC_URL + "/images/case/case_id.png",
+              subject: 'Distributed identity verification mobile identification service',
+              summary: 'Blockchain and distributed identification(DID)-based mobile identification (mobile employee ID) issuance and verification for identification without personal information exposure',
+              content: "DID is a technology that stores personal information in the user's terminal so that only necessary information is submitted for personal information authentication. The DID is recorded on the blockchain, so you can use it anytime, anywhere. This allows you to manage personal information yourself, not by others like your existing identification card, so you can solve personal information sovereignty and security issues."
+            },
+            {
+              img: process.env.PUBLIC_URL + "/images/case/case_doc.png",
+              subject: "Blockchain-based electronic document issuance and verification service",
+              summary: "Issuing, verifying, and distributing electronic documents based on blockchain and distributed identification(DID) for self-sovereign electronic certificate and electronic document forgery verification and denial prevention",
+              content: "DID is a technology that stores personal information in the user's terminal so that only necessary information is submitted for personal information authentication. The DID is recorded on the blockchain, so you can use it anytime, anywhere. Instead of being issued on paper and manually verifying several facts, it is issued as an electronic document on your own device and submitted electronically or printed out. The issuance history and verification history are stored in the blockchain, allowing forgery verification and non-repudiation."
             }
+
+            
+            /* 
+
+            ,
+            {
+              img: process.env.PUBLIC_URL + "/images/case/",
+              subject: "",
+              summary: "",
+              content: ""
+            }
+
+            */
           ] 
 
-          const caseList = cases.map(rcase => (
-            <div className="case-container p-5 block">
-              <div className="row fromLeftIn" data-scroll="toggle(.fromLeftIn, .fromLeftOut)">
+          const caseList = cases.map((rcase, index) => (
+            <div className="case-container p-5" key="index">
+              <div className="row" data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="ease-in">
                 <div className="col-lg-6 img d-flex justify-content-center align-items-center container mb-5">
                   <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
                 </div>
@@ -29,16 +58,17 @@ class Case extends Component{
                   <p className="case-subject mb-2">{rcase.subject}</p>
                   <p className="case-summary mb-4">{rcase.summary}</p>
                   <p className="case-content">{rcase.content}</p>
-                  <div className="text-center"><a className="btn btn-primary" target="_blank" href={rcase.information}>More Information</a></div>
                 </div>
               </div>
               <hr/>
             </div> 
           ))
+          
         return(
             <>
               {caseList}
             </>
+            
         )
         
     }

@@ -180,6 +180,10 @@ p {
   ;
 }
 
+.R-footer-right *{
+  color: #494544 !important;
+}
+
 /* ******************** main ******************** */ 
 
 .main-wrap {
