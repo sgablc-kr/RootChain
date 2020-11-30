@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+
+import Title from "./js/Title.js";
 import Case from "./js/Case.js";
+import Benefit from "./js/Benefit.js";
 
 function App() {
+
   return (
     <div className="App">
 
@@ -16,6 +20,7 @@ function App() {
           <div className="collapse navbar-collapse" id="R-nav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
+              <li className="nav-item"><a href="#benefit" className="nav-link">Benefit</a></li>
               <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
             </ul>
           </div>
@@ -51,20 +56,28 @@ function App() {
       </div> 
       {/*  END main */}
 
+      {/* ***************************************************************************************************************** */}
+
       {/*  START case */}
       <section className="R-section" id="case">
         <div className="container">
-          <div className="row justify-content-center pb-5">
-            <div className="col-md-7 heading-section text-center">
-              <span className="subheading">Services</span>
-              <h2>Case</h2>
-            </div>
-          </div>
-
+          <Title sub="service" main="case"></Title>
           <Case></Case>
         </div>
       </section>
       {/*  END case */}
+
+
+      {/*  START benefit */}
+       {/* <section className="R-section" id="benefit">
+        <div className="container">
+          <Title sub="service" main="benefit"></Title>
+          <Benefit></Benefit>
+        </div>
+      </section> */}
+      {/*  END benefit */}
+
+      {/* ***************************************************************************************************************** */}
 
       {/*  START footer */}
       <footer className="R-footer" id="contactUs">

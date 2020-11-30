@@ -17,30 +17,6 @@
   font-style: normal;
 }
 
-/* Gmarket Sans B */
-@font-face {
-  font-family: 'GmarketSansBold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} 
-
-/* Gmarket Sans M */
-@font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Gmarket Sans L */
-@font-face {
-  font-family: 'GmarketSansLight';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
  /* ******************** all ******************** */
 
  *,
@@ -286,10 +262,24 @@ p {
 .heading-section .subheading {
   font-size: 1em;
   display: inline-block;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
   color: #2B76B5;
   position: relative; 
 }
+
+.subheading{
+  text-transform: uppercase;
+  font-size: 0.8em !important;
+}
+
+.mainheading{
+  text-transform: capitalize;
+}
+
+
+
+
 
 .case-container{
   height: auto;
