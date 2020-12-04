@@ -291,7 +291,7 @@ p {
   } 
 }
 
-.case-subject{
+.case-subject, .benefit-subject{
   color: #2B76B5;
   opacity: 0.9;
   font-weight: 700;
@@ -307,8 +307,24 @@ p {
   line-height: 1em;
 }
 
-.case-content{
+.case-content, .benefit-content{
   font-size: 1em; 
   line-height: 1.5em;
 }
 
+
+.benefit-container{
+  border: 1px solid lightgray !important;
+  border-radius: 10%;
+}
+
+.benefit-wrap {
+  display: block;
+  padding: 0;
+  transition: all 0.3s ease;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  z-index: 0;
+}

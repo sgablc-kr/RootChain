@@ -69,12 +69,12 @@ function App() {
 
 
       {/*  START benefit */}
-       {/* <section className="R-section" id="benefit">
+       <section className="R-section" id="benefit">
         <div className="container">
           <Title sub="service" main="benefit"></Title>
           <Benefit></Benefit>
         </div>
-      </section> */}
+      </section>
       {/*  END benefit */}
 
       {/* ***************************************************************************************************************** */}
