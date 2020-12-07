@@ -50,13 +50,13 @@ class Case extends Component{
           const caseList = cases.map((rcase, index) => (
 
             <div className="case-container p-5" key="index">
-              <div className="row" data-aos="fade-left" data-aos-offset="100" data-aos-duration="800" data-aos-easing="ease-in">
+              <div className="row" data-aos="fade-">
                 { index%2 == 0 ? 
                 <>
-                  <div className="col-lg-6 img d-flex justify-content-center align-items-center container mb-5">
+                  <div className="col-md-6 img d-flex justify-content-center align-items-center container mb-5">
                     <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
                   </div>
-                  <div className="col-lg-6 px-lg-5 text-left mb-5">
+                  <div className="col-md-6 px-lg-5 text-left mb-5">
                     <p className="case-subject mb-2">{rcase.subject}</p>
                     <p className="case-summary mb-4">{rcase.summary}</p>
                     <p className="case-content">{rcase.content}</p>
@@ -64,12 +64,12 @@ class Case extends Component{
                 </> 
                 :
                 <>
-                  <div className="col-lg-6 px-lg-5 text-left mb-5">
+                  <div className="col-md-6 px-lg-5 text-left mb-5">
                     <p className="case-subject mb-2">{rcase.subject}</p>
                     <p className="case-summary mb-4">{rcase.summary}</p>
                     <p className="case-content">{rcase.content}</p>
                   </div>
-                  <div className="col-lg-6 img d-flex justify-content-center align-items-center container mb-5">
+                  <div className="col-md-6 img d-flex justify-content-center align-items-center container mb-5">
                     <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
                   </div>
                 </>

@@ -72,20 +72,6 @@ p {
   animation-duration: 1s; 
 }
 
-.fromLeftIn {
-  transition: transform 1.0s ease, opacity 1.0s ease;
-  transform: translate(0,0);
-  opacity: 1.0;
-}
-.fromTopOut
-{
-	transition: transform 1.0s ease, opacity 1.0s ease;
-	
-	transform: translate(0,-10px);
-	opacity: 0.0;
-}
- 
-
 /* ******************** nav ******************** */ 
 
 .navbar{
@@ -250,12 +236,12 @@ p {
 }
 
 .heading-section h2 {
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 600; 
 }
 @media (max-width: 767.98px) {
   .heading-section h2 {
-    font-size: 28px; 
+    font-size: 2em; 
   } 
 }
 
@@ -278,7 +264,7 @@ p {
 }
 
 
-
+/* case */
 
 
 .case-container{
@@ -309,19 +295,35 @@ p {
 
 .case-content, .benefit-content{
   font-size: 1em; 
-  line-height: 1.5em;
+  line-height: 1.3em;
 }
 
 
-.benefit-container{
+/* benefit */
+
+@media (max-width: 992px) {
+  .benefit-container {
+    width: 80%;
+    margin-bottom: 3em !important;
+  } 
+  .benefit-text {
+    padding: 1em 3em !important;
+  } 
+}
+
+.benefit-container:hover{
+  animation: pulse; 
+  animation-duration: 1s; 
+}
+
+.benefit-frame{
   border: 1px solid lightgray !important;
-  border-radius: 10%;
+  border-radius: 7%;
 }
 
 .benefit-wrap {
   display: block;
   padding: 0;
-  transition: all 0.3s ease;
   position: relative;
   width: 100%;
   margin: 0 auto;
