@@ -7,9 +7,9 @@ class Benefit extends Component{
           
         return (
             <>
-                <div className="row mt-5 justify-content-center">
+                <div className="row mt-5 justify-content-center" data-aos="fade-left">
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
                                 <div className="d-flex align-items-center justify-content-center p-2 pt-4">
@@ -23,7 +23,7 @@ class Benefit extends Component{
                         </div>
                     </div>
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
                                 <div className="d-flex align-items-center justify-content-center p-2 pt-4">
@@ -37,7 +37,7 @@ class Benefit extends Component{
                         </div>
                     </div>
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
                                 <div className="d-flex align-items-center justify-content-center p-2 pt-4">

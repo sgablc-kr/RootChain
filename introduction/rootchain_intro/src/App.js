@@ -3,8 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 import Title from "./js/Title.js";
-import Case from "./js/Case.js";
 import Benefit from "./js/Benefit.js";
+import Gs from "./js/Gs.js";
+import Case from "./js/Case.js";
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
       {/*  START nav */}
       <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
         <div className="container">
-          <a className="navbar-brand R-logo" href="#main"><img src={process.env.PUBLIC_URL + "/images/logoL.png"} width="60%" alt="logo"/></a>
+          <a className="navbar-brand pulse" href="#main"><img src={process.env.PUBLIC_URL + "/images/logoL.png"} width="60%" alt="logo"/></a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#R-nav" aria-controls="R-nav" aria-expanded="false">Menu</button>
 
           <div className="collapse navbar-collapse" id="R-nav">
@@ -32,13 +33,13 @@ function App() {
       <div className="main-wrap" data-stellar-background-ratio="0.5" id="main">
         <div className="overlay"></div>
         <div className="container">
-          <div className="row no-gutters slider-text align-items-center">
+          <div className="row no-gutters slider-text align-items-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
   
             <div className="col-md-6 d-flex align-items-end">
                 <div className="text w-100">
                   <p className="mb-3 r-main-sub">For Fast and Secure Business<br/>Enterprise Blockchain Solution</p>
                   <p className="mb-5 r-main-title">The Best Way<br/>To Protect<br/>Enterprise Values</p>
-                  <p><a href="#contactUs" className="btn py-3 px-4 mr-3 mt-2">Contact us</a> </p>
+                  <p><a href="#contactUs" className="btn py-3 px-4 mr-3 mt-2 pulse">Contact us</a> </p>
               </div>
             </div>
             
@@ -58,6 +59,21 @@ function App() {
 
       {/* ***************************************************************************************************************** */}
 
+      {/*  START benefit */}
+      <section className="R-section" id="benefit">
+      <div className="container">
+        <Title sub="benefit" main="Why Choose Us"></Title>
+        <Benefit></Benefit>
+      </div>
+      </section>
+
+      <section className="R-section" id="benefit">
+      <div className="container">
+        <Gs></Gs>
+      </div>
+      </section>
+      {/*  END benefit */}
+
       {/*  START case */}
       <section className="R-section" id="case">
         <div className="container">
@@ -67,29 +83,19 @@ function App() {
       </section>
       {/*  END case */}
 
-
-      {/*  START benefit */}
-       <section className="R-section" id="benefit">
-        <div className="container">
-          <Title sub="service" main="benefit"></Title>
-          <Benefit></Benefit>
-        </div>
-      </section>
-      {/*  END benefit */}
-
       {/* ***************************************************************************************************************** */}
 
       {/*  START footer */}
       <footer className="R-footer" id="contactUs">
         <div className="container">
           <div className="row mb-5">
-            <div className="col-sm-12 col-md mb-3">
+            <div className="col-md-8 col-md mb-3">
                 <h2 className="R-footer-title mb-4">Contact us</h2>
                 <table>
                   <tbody>
                     <tr>
                       <td className="text-right pr-4">Web</td>
-                      <td><a href="http://www.sgablc.kr" target="_blank" id="contact-web">http://www.sgablc.kr</a></td>
+                      <td><a href="http://www.sgablc.kr" target="_blank" className="footer-hover">http://www.sgablc.kr</a></td>
                     </tr>
                     <tr>
                       <td className="text-right pr-4">E-mail</td>
@@ -110,6 +116,15 @@ function App() {
                     </tr>
                   </tbody>
                 </table>
+             </div>
+             <div className="col-md-4 col-md mb-3">
+                <h2 className="R-footer-title mb-4">Menu</h2>
+                <div>
+                  <ul className="navbar-nav ml-auto">
+                    <li><a href="#case" className="footer-hover">Case</a></li>
+                    <li><a href="#benefit" className="footer-hover">Benefit</a></li>
+                  </ul>
+                </div>
              </div>
             </div>
           </div>

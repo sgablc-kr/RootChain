@@ -50,7 +50,7 @@ class Case extends Component{
           const caseList = cases.map((rcase, index) => (
 
             <div className="case-container p-5" key="index">
-              <div className="row" data-aos="fade-">
+              <div className="row" data-aos="fade-left">
                 { index%2 == 0 ? 
                 <>
                   <div className="col-md-6 img d-flex justify-content-center align-items-center container mb-5">

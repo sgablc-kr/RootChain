@@ -67,9 +67,10 @@ p {
     background-color: transparent !important;
 }
 
-.btn:hover{
+.pulse:hover{
   animation: pulse; 
   animation-duration: 1s; 
+  animation-timing-function: ease-in-out;
 }
 
 /* ******************** nav ******************** */ 
@@ -109,11 +110,6 @@ p {
   cursor: pointer; 
 }
 
-.R-logo:hover {
-  animation: pulse; 
-  animation-duration: 1s; 
-}
-
 /* ******************** footer ******************** */ 
 
 .R-footer {
@@ -135,11 +131,10 @@ p {
   color: #494544;
 }
 
-#contact-web:hover { 
+.footer-hover:hover { 
   text-decoration: none;
   color: white;
   opacity: 0.7;
-  ;
 }
 
 .R-footer-right *{
@@ -311,9 +306,8 @@ p {
   } 
 }
 
-.benefit-container:hover{
-  animation: pulse; 
-  animation-duration: 1s; 
+.benefit-container:hover  .benefit-frame{
+  border: 1px solid #2B76B5 !important;
 }
 
 .benefit-frame{
