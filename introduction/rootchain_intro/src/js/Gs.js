@@ -11,7 +11,7 @@ class Gs extends Component{
                         <div className="gs-img bounce">
                             <img src={process.env.PUBLIC_URL + "/images/gs.png"} width="80%"/>
                         </div>
-                        <div className="gs-frame py-5 justify-content-center">
+                        <div className="gs-frame py-5 justify-content-center shadow">
                             <div className="gs-test mx-auto mb-4 text-center">
                                 <h3>SW Quality Test</h3>    
                             </div>
@@ -81,8 +81,10 @@ class Gs extends Component{
     Reliability, Security, Maintainability, Portability, General requirements<br/> 
     to give certification<br/>
     <br/>       
-    
                         </div>
+                        <a className="btn btn-primary pulse" href="https://sw.tta.or.kr/eng/service/gsce_it.jsp" target="_blank">
+                            &gt;&gt;&gt;&nbsp;&nbsp;more information
+                        </a>
                     </div>
 
                 </div>

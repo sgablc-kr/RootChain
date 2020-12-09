@@ -41,7 +41,7 @@ function App() {
                 <div className="text w-100">
                   <p className="mb-3 r-main-sub">For Fast and Secure Business<br/>Enterprise Blockchain Solution</p>
                   <p className="mb-5 r-main-title">The Best Way<br/>To Protect<br/>Enterprise Values</p>
-                  <p><a href="#contactUs" className="btn py-3 px-4 mr-3 mt-2 pulse">Contact us</a> </p>
+                  <p><a href="#contactUs" className="btn py-3 px-4 mr-3 mt-2 pulse shadow">Contact us</a> </p>
               </div>
             </div>
             
@@ -89,7 +89,7 @@ function App() {
       {/*  END case */}
 
       {/*  START tech */}
-       <section className="R-section" id="tech">
+       <section className="R-section bg-sky" id="tech">
         <div className="container">
           <Title sub="technology" main="how it works"></Title>
           <Tech></Tech>
@@ -101,11 +101,11 @@ function App() {
       {/* ***************************************************************************************************************** */}
 
       {/*  START footer */}
-      <footer className="R-footer" id="contactUs">
+      <footer className="R-footer mt-5" id="contactUs">
         <div className="container">
           <div className="row mb-5">
             <div className="col-md-6 col-md mb-3">
-                <h2 className="R-footer-title mb-4">Contact us</h2>
+                <h4 className="R-footer-title mb-3">Contact us</h4>
                 <table>
                   <tbody>
                     <tr>
@@ -134,7 +134,7 @@ function App() {
                 </table>
              </div>
              <div className="col-md-6 col-md mb-3 d-none d-md-block">
-                <h2 className="R-footer-title mb-4">Menu</h2>
+                <h4 className="R-footer-title mb-3">Menu</h4>
                 <div>
                   <ul className="navbar-nav ml-auto">
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>

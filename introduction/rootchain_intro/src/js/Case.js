@@ -57,17 +57,17 @@ class Case extends Component{
                     <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
                   </div>
                   <div className="col-md-6 px-lg-5 text-left mb-5">
-                    <p className="case-subject mb-2">{rcase.subject}</p>
+                    <p className="subject mb-2">{rcase.subject}</p>
                     <p className="case-summary mb-4">{rcase.summary}</p>
-                    <p className="case-content">{rcase.content}</p>
+                    <p className="contents">{rcase.content}</p>
                   </div>
                 </> 
                 :
                 <>
                   <div className="col-md-6 px-lg-5 text-right mb-5">
-                    <p className="case-subject mb-2">{rcase.subject}</p>
+                    <p className="subject mb-2">{rcase.subject}</p>
                     <p className="case-summary mb-4">{rcase.summary}</p>
-                    <p className="case-content">{rcase.content}</p>
+                    <p className="contents">{rcase.content}</p>
                   </div>
                   <div className="col-md-6 img d-flex justify-content-center align-items-center container mb-5">
                     <img id="case-img" src={rcase.img} width="80%" alt="case-img"/>
