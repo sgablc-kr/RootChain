@@ -6,6 +6,7 @@ import Title from "./js/Title.js";
 import Benefit from "./js/Benefit.js";
 import Gs from "./js/Gs.js";
 import Case from "./js/Case.js";
+import Tech from "./js/tech.js";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item"><a href="#benefit" className="nav-link">Benefit</a></li>
               <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
+              <li className="nav-item"><a href="#tech" className="nav-link">Technology</a></li>
               <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
             </ul>
           </div>
@@ -86,6 +88,15 @@ function App() {
       </section>
       {/*  END case */}
 
+      {/*  START tech */}
+       <section className="R-section" id="tech">
+        <div className="container">
+          <Title sub="technology" main="how it works"></Title>
+          <Tech></Tech>
+        </div>
+      </section>
+      {/*  END tech */}
+
 
       {/* ***************************************************************************************************************** */}
 
@@ -128,6 +139,7 @@ function App() {
                   <ul className="navbar-nav ml-auto">
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
                     <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
+                    <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; technology</a></li>
                     <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
                   </ul>
                 </div>
