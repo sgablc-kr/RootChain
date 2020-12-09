@@ -47,7 +47,7 @@ p {
 .App {
   font-family: "Roboto", Arial, sans-serif;
   background: #fff;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
   color: #494544;
@@ -73,6 +73,27 @@ p {
   animation-timing-function: ease-in-out;
 }
 
+.bounce:hover{
+  animation: bounce; 
+  animation-duration: 1s; 
+}
+
+.bg-sky{
+  background-color: #EFFAFF;
+}
+
+.summary{
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.contents{
+  color: gray;
+  line-height: 1.5em;
+}
+
+
 /* ******************** nav ******************** */ 
 
 .navbar{
@@ -80,7 +101,7 @@ p {
 }
 
 .navbar-nav > .nav-item > .nav-link {
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   font-size: 15px;
   padding-top: .9rem;
   padding-bottom: .9rem;
@@ -153,7 +174,6 @@ p {
   background-position: top center;
   position: relative;
   z-index: 0; 
-  background-color: #EFFAFF;
 }
 
 .slider-text {
@@ -169,11 +189,12 @@ p {
 .r-main-sub{
   color: #2B76B5 !important;
   line-height: 1.3em;
+  font-size: 1.2em;
 }
 
 .r-main-title{
   font-family: 'S-CoreDream-8Heavy';
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1.5em;
 }
 
@@ -233,6 +254,7 @@ p {
 .heading-section h2 {
   font-size: 2.5em;
   font-weight: 600; 
+  text-transform: capitalize;
 }
 @media (max-width: 767.98px) {
   .heading-section h2 {
@@ -251,16 +273,12 @@ p {
 
 .subheading{
   text-transform: uppercase;
-  font-size: 0.8em !important;
-}
-
-.mainheading{
-  text-transform: capitalize;
+  font-size: 1em !important;
 }
 
 
-/* case */
 
+/* ******************** case ******************** */ 
 
 .case-container{
   height: auto;
@@ -284,17 +302,17 @@ p {
 
 .case-summary{
   color: grey;
-  font-size: 0.9em; 
-  line-height: 1em;
+  font-size: 1em; 
+  line-height: 1.2em;
 }
 
 .case-content, .benefit-content{
   font-size: 1em; 
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 
 
-/* benefit */
+/* ******************** benrfit ******************** */ 
 
 @media (max-width: 992px) {
   .benefit-container {
@@ -306,12 +324,8 @@ p {
   } 
 }
 
-.benefit-container:hover  .benefit-frame{
-  border: 1px solid #2B76B5 !important;
-}
-
 .benefit-frame{
-  border: 1px solid lightgray !important;
+  border: 4px solid rgba(43, 118, 181, 0.9) !important;
   border-radius: 7%;
 }
 
@@ -324,3 +338,57 @@ p {
   margin-bottom: 0.5em;
   z-index: 0;
 }
+
+/* ******************** gs ******************** */ 
+
+#gs .title{
+  padding-bottom: 0 !important;
+}
+
+.gs-left{
+  padding: 3.5em 3.5em 0em 4em !important;
+  text-align: left;
+}
+
+.gs-right{
+  margin-top: 3.3em;
+  text-align: left;
+}
+
+@media (max-width: 992px) {
+  .gs-right{
+    margin-top: 1em;
+    text-align: center;
+  }
+}
+
+.gs-img{
+  width: 30%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 999;
+}
+
+.gs-frame{
+  border: 2px solid lightgrey !important;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+
+.gs-test{
+  width: 60%;
+  border-bottom: 3px solid rgba(43, 118, 181, 0.7) !important;
+}
+
+.gs-test h3{font-family: 'S-CoreDream-8Heavy';}
+.gs-table{width: 55%;}
+.gs-table tr{border-bottom: 0.5em solid white;}
+.gs-question{width: 80%;}
+.gs-answer{width: 10%; font-weight: 700;}
+.gs-pass{ width: 10%; background-color: rgba(43, 118, 181, 0.5);}

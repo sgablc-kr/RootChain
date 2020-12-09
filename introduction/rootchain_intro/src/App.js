@@ -20,8 +20,8 @@ function App() {
 
           <div className="collapse navbar-collapse" id="R-nav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
               <li className="nav-item"><a href="#benefit" className="nav-link">Benefit</a></li>
+              <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
               <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
             </ul>
           </div>
@@ -30,10 +30,10 @@ function App() {
       {/*  END nav */}
 
       {/*  START main */}
-      <div className="main-wrap" data-stellar-background-ratio="0.5" id="main">
+      <div className="main-wrap bg-sky" data-stellar-background-ratio="0.5" id="main">
         <div className="overlay"></div>
         <div className="container">
-          <div className="row no-gutters slider-text align-items-center" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">
+          <div className="row no-gutters slider-text align-items-center" data-aos="fade-down" data-aos-easing="ease" data-aos-delay="500">
   
             <div className="col-md-6 d-flex align-items-end">
                 <div className="text w-100">
@@ -62,13 +62,16 @@ function App() {
       {/*  START benefit */}
       <section className="R-section" id="benefit">
       <div className="container">
-        <Title sub="benefit" main="Why Choose Us"></Title>
+        <Title sub="benefit" main="why choose us"></Title>
         <Benefit></Benefit>
       </div>
       </section>
+      {/*  END benefit */}
 
-      <section className="R-section" id="benefit">
-      <div className="container">
+      {/*  START benefit */}
+      <section className="R-section">
+      <div className="container" id="gs">
+        <Title sub="benefit" main="We've proved"></Title>
         <Gs></Gs>
       </div>
       </section>
@@ -77,11 +80,12 @@ function App() {
       {/*  START case */}
       <section className="R-section" id="case">
         <div className="container">
-          <Title sub="service" main="case"></Title>
+          <Title sub="case" main="We worked with"></Title>
           <Case></Case>
         </div>
       </section>
       {/*  END case */}
+
 
       {/* ***************************************************************************************************************** */}
 
@@ -117,12 +121,13 @@ function App() {
                   </tbody>
                 </table>
              </div>
-             <div className="col-md-4 col-md mb-3">
+             <div className="col-md-4 col-md mb-3 d-none d-md-block">
                 <h2 className="R-footer-title mb-4">Menu</h2>
                 <div>
                   <ul className="navbar-nav ml-auto">
-                    <li><a href="#case" className="footer-hover">Case</a></li>
-                    <li><a href="#benefit" className="footer-hover">Benefit</a></li>
+                    <li><a href="#main" className="footer-hover">-&nbsp;&nbsp; Main</a></li>
+                    <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp; Benefit</a></li>
+                    <li><a href="#case" className="footer-hover">-&nbsp;&nbsp; Case</a></li>
                   </ul>
                 </div>
              </div>

@@ -7,13 +7,13 @@ class Benefit extends Component{
           
         return (
             <>
-                <div className="row mt-5 justify-content-center" data-aos="fade-left">
+                <div className="row mt-5 justify-content-center" data-aos="fade-down">
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
-                                <div className="d-flex align-items-center justify-content-center p-2 pt-4">
-                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_doc.png"} width="50%" alt="benefit"/>
+                                <div className="d-flex align-items-center justify-content-center p-2 pt-4 bounce">
+                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_doc.png"} width="40%" alt="benefit"/>
                                 </div>
                             </div>
                             <div className="px-4 pb-3 benefit-text">
@@ -23,11 +23,11 @@ class Benefit extends Component{
                         </div>
                     </div>
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
-                                <div className="d-flex align-items-center justify-content-center p-2 pt-4">
-                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_tm.png"} width="50%" alt="benefit"/>
+                                <div className="d-flex align-items-center justify-content-center p-2 pt-4 bounce">
+                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_tm.png"} width="40%" alt="benefit"/>
                                 </div> 
                             </div>
                             <div className="px-4 pb-3 benefit-text">
@@ -37,11 +37,11 @@ class Benefit extends Component{
                         </div>
                     </div>
 
-                    <div className="col-lg-4 d-flex align-items-stretch benefit-container pulse">
+                    <div className="col-lg-4 d-flex align-items-stretch benefit-container">
                         <div className="text-center benefit-frame">
                             <div className="benefit-wrap">
-                                <div className="d-flex align-items-center justify-content-center p-2 pt-4">
-                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_track.png"} width="50%" alt="benefit"/>
+                                <div className="d-flex align-items-center justify-content-center p-2 pt-4 bounce">
+                                    <img src={process.env.PUBLIC_URL + "/images/benefit/benefit_track.png"} width="40%" alt="benefit"/>
                                 </div>
                             </div>
                             <div className="px-4 pb-3 benefit-text">
