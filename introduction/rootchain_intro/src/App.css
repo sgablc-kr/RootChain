@@ -134,7 +134,7 @@ p {
 /* ******************** footer ******************** */ 
 
 .R-footer {
-  font-size: 15px;
+  font-size: 1.2em;
   padding: 4em 0 0 0;
   background: #2B76B5;
   color: white;
@@ -159,8 +159,10 @@ p {
 }
 
 .R-footer-right *{
+  font-size: 0.8em;
   color: #494544 !important;
 }
+
 
 /* ******************** main ******************** */ 
 

@@ -93,41 +93,42 @@ function App() {
       <footer className="R-footer" id="contactUs">
         <div className="container">
           <div className="row mb-5">
-            <div className="col-md-8 col-md mb-3">
+            <div className="col-md-6 col-md mb-3">
                 <h2 className="R-footer-title mb-4">Contact us</h2>
                 <table>
                   <tbody>
                     <tr>
-                      <td className="text-right pr-4">Web</td>
+                      <td className="text-right pr-3"><span className="fas fa-home"/></td>
                       <td><a href="http://www.sgablc.kr" target="_blank" className="footer-hover">http://www.sgablc.kr</a></td>
                     </tr>
                     <tr>
-                      <td className="text-right pr-4">E-mail</td>
+                      <td className="text-right pr-3"><span className="fas fa-paper-plane"/></td>
                       <td>sgablc@sgacorp.kr</td>
                     </tr>
                     <tr>
-                      <td className="text-right pr-4">Tel</td>
+                      <td className="text-right pr-3"><span className="fas fa-phone-alt"/></td>
                       <td>+82 70 5204 0066</td>
                     </tr>
                     <tr>
-                      <td className="text-right pr-4">Fax</td>
+                      <td className="text-right pr-3"><span className="fas fa-fax"/></td>
                       <td>+82 2 6499 1813</td>
                     </tr>
                     <tr>
-                      <td className="text-right align-top pr-4">Address</td>
-                      <td>[05836] SGABLC Co., Ltd. 11th Street 25<br/>
-                          Bubwon-Ro, Song-Pa Gu, Seoul, Korea</td>
+                      <td className="text-right align-top pr-3"><span className="fas fa-map-marker-alt"/></td>
+                      <td><a href="http://kko.to/XU5U14lYB" target="_blank" className="footer-hover">
+                          [05836] SGABLC Co., Ltd. 11th Street 25<br/>
+                          Bubwon-Ro, Song-Pa Gu, Seoul, Korea</a></td>
                     </tr>
                   </tbody>
                 </table>
              </div>
-             <div className="col-md-4 col-md mb-3 d-none d-md-block">
+             <div className="col-md-6 col-md mb-3 d-none d-md-block">
                 <h2 className="R-footer-title mb-4">Menu</h2>
                 <div>
                   <ul className="navbar-nav ml-auto">
-                    <li><a href="#main" className="footer-hover">-&nbsp;&nbsp; Main</a></li>
-                    <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp; Benefit</a></li>
-                    <li><a href="#case" className="footer-hover">-&nbsp;&nbsp; Case</a></li>
+                    <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
+                    <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
+                    <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
                   </ul>
                 </div>
              </div>
@@ -147,6 +148,7 @@ function App() {
 
       {/*  END footer */}
 
+      <a href="#" className="backToTop">위로</a>
     </div>
   );
 }
