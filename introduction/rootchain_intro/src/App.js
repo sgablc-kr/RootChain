@@ -145,10 +145,7 @@ function App() {
             </div>
         </div>
       </footer>
-
       {/*  END footer */}
-
-      <a href="#" className="backToTop">위로</a>
     </div>
   );
 }
