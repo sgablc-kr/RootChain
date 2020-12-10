@@ -88,6 +88,8 @@ function App() {
       </section>
       {/*  END case */}
 
+<<<<<<< master
+=======
       {/*  START tech */}
        <section className="R-section bg-sky" id="tech">
         <div className="container">
@@ -97,6 +99,7 @@ function App() {
       </section>
       {/*  END tech */}
 
+>>>>>>> master
 
       {/* ***************************************************************************************************************** */}
 
@@ -139,7 +142,10 @@ function App() {
                   <ul className="navbar-nav ml-auto">
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
                     <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
+<<<<<<< master
+=======
                     <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; technology</a></li>
+>>>>>>> master
                     <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
                   </ul>
                 </div>
@@ -151,7 +157,7 @@ function App() {
             <div className="container">
                 <div className="row">
                 <div className="R-footer-right col-md-12 text-center">
-                    <p className="mt-0">COPYRIGHT©2020 SGA BLC CO.,LTD. ALL RIGHTS RESERVED.</p>
+                    <p className="mt-0">COPYRIGHT©2020 SGABLC CO.,LTD. ALL RIGHTS RESERVED.</p>
                 </div>
                 </div>
             </div>
