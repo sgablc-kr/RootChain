@@ -2,7 +2,7 @@
   "name": "rootchain_intro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saihai313.github.io/RootChain",
+  "homepage": "https://sgablc-kr.github.io/RootChain",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
