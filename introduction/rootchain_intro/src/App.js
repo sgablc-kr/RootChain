@@ -23,7 +23,7 @@ function App() {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item"><a href="#benefit" className="nav-link">Benefit</a></li>
               <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
-              <li className="nav-item"><a href="#tech" className="nav-link">Technology</a></li>
+              {/* <li className="nav-item"><a href="#tech" className="nav-link">Technology</a></li> */}
               <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
             </ul>
           </div>
@@ -141,7 +141,7 @@ function App() {
             <div className="container">
                 <div className="row">
                 <div className="R-footer-right col-md-12 text-center">
-                    <p className="mt-0">COPYRIGHT©2020 SGABLC CO.,LTD. ALL RIGHTS RESERVED.</p>
+                    <p className="mt-0">COPYRIGHT©2020 SGABLC CO., LTD. ALL RIGHTS RESERVED.</p>
                 </div>
                 </div>
             </div>
