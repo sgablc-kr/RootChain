@@ -82,7 +82,7 @@ class Gs extends Component{
     to give certification<br/>
     <br/>       
                         </div>
-                        <a className="btn btn-primary pulse" href="https://sw.tta.or.kr/eng/service/gsce_it.jsp" target="_blank">
+                        <a className="btn-none opacity" href="https://sw.tta.or.kr/eng/service/gsce_it.jsp" target="_blank">
                             &gt;&gt;&gt;&nbsp;&nbsp;more information
                         </a>
                     </div>

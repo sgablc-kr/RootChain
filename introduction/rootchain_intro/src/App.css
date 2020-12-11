@@ -65,6 +65,11 @@ p {
     background-color: transparent !important;
 }
 
+.btn-none {
+  text-decoration: none !important;
+  color: #2B76B5 !important;
+}
+
 .pulse:hover{
   animation: pulse; 
   animation-duration: 1s; 
@@ -74,6 +79,10 @@ p {
 .bounce:hover{
   animation: bounce; 
   animation-duration: 1s; 
+}
+
+.opacity:hover{
+  opacity: 50%;
 }
 
 .bg-sky{
