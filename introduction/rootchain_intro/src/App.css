@@ -89,6 +89,15 @@ p {
   background-color: #EFFAFF;
 }
 
+.bg-wh{
+  background-color: white;
+}
+
+.border-blue{
+  border: 2px solid rgba(43, 118, 181, 0.6);
+  border-radius: 5%;
+}
+
 .summary{
   font-size: 1.5em;
   font-weight: 700;
@@ -100,7 +109,9 @@ p {
   line-height: 1.5em;
 }
 
-.shadow{box-shadow: 0 8px 40px -16px rgba(12,22,44,.32) !important;}
+.shadow{
+  box-shadow: 0 8px 40px -16px rgba(12,22,44,.32) !important;
+}
 
 .subject{
   opacity: 0.9;
@@ -110,6 +121,25 @@ p {
   text-transform: capitalize;
 }
 
+.middle{
+  border-left: 2px solid rgba(43, 118, 181, 0.6);
+  border-right: 2px solid rgba(43, 118, 181, 0.6);
+}
+
+@media (max-width: 992px) {
+  .middle {
+    border: none !important;
+  }
+} 
+
+.top-summary{
+  font-size: 1em;
+  text-align: center;
+}
+
+.list-style{
+  list-style-type: square;
+}
 
 /* ******************** nav ******************** */ 
 
@@ -381,7 +411,6 @@ p {
   display: block;
 }
 
-
 .gs-test{
   width: 60%;
   border-bottom: 3px solid rgba(43, 118, 181, 0.7) !important;
@@ -395,3 +424,37 @@ p {
 .gs-pass{ width: 10%; background-color: rgba(43, 118, 181, 0.5);}
 #gs .summary{color: #215893;}
 #gs .btn{border: none !important; padding: 0 !important;}
+
+/* ******************** tech ******************** */ 
+
+@media (max-width: 992px) {
+  .tech-img {
+    padding: 3em 5em 3em 5em;
+  }
+} 
+
+@media (max-width: 767.98px) {
+  .tech-img {
+    padding: 3em;
+  }
+} 
+
+.tech-subject{
+  text-align: center;
+  color:rgba(43, 118, 181, 0.7);
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
+
+.tech.contents{
+  color:rgba(43, 118, 181, 0.7);
+}
+
+.tech-main{
+  padding: 3em;
+}
+@media (max-width: 767.98px) {
+  .tech-main {
+    padding-top: 3em;
+  }
+} 
