@@ -88,18 +88,6 @@ function App() {
       </section>
       {/*  END case */}
 
-<<<<<<< master
-=======
-      {/*  START tech */}
-       <section className="R-section bg-sky" id="tech">
-        <div className="container">
-          <Title sub="technology" main="how it works"></Title>
-          <Tech></Tech>
-        </div>
-      </section>
-      {/*  END tech */}
-
->>>>>>> master
 
       {/* ***************************************************************************************************************** */}
 
@@ -142,10 +130,6 @@ function App() {
                   <ul className="navbar-nav ml-auto">
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
                     <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
-<<<<<<< master
-=======
-                    <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; technology</a></li>
->>>>>>> master
                     <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
                   </ul>
                 </div>
