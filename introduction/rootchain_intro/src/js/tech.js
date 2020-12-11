@@ -7,15 +7,14 @@ class Tech extends Component{
           
         return (
             <>
-                <div className="top-summary">
+                <div className="top-summary" data-aos="fade-down">
                     Through blockchain technology, customers' assets are safely managed,<br/> 
                     and the complex structure for sharing and linking information is improved to enhance the business value of customers.
                 </div>
                 <div className="case-container p-5">
-    
                     <div class="row">
                 
-                        <div class="col-lg-4 p-3">
+                        <div class="col-lg-4 p-3" data-aos="fade-down">
                             <div class="col-lg-12 tech-img">
                                 <img src={process.env.PUBLIC_URL + "/images/tech/tech_center.png"} width="100%" alt="tech-img"/>
                             </div>
@@ -32,7 +31,7 @@ class Tech extends Component{
                             </div>
                         </div>
 
-                        <div class="col-lg-4 p-3">
+                        <div class="col-lg-4 p-3" data-aos="fade-down">
                             <div class="col-lg-12 tech-img">
                                 <img src={process.env.PUBLIC_URL + "/images/tech/tech_public.png"} width="100%" alt="tech-img"/>
                             </div>
@@ -49,7 +48,7 @@ class Tech extends Component{
                             </div>
                         </div>
 
-                        <div class="col-lg-4 p-3">
+                        <div class="col-lg-4 p-3" data-aos="fade-down">
                             <div class="col-lg-12 tech-img">
                                 <img src={process.env.PUBLIC_URL + "/images/tech/tech_private.png"} width="100%" alt="tech-img"/>
                             </div>
@@ -66,14 +65,13 @@ class Tech extends Component{
                         </div>
 
                     </div>
-                        <hr/>
-                    <div className="row col-lg-12 mt-5">
+                    <hr/>
+                    <div className="row col-lg-12 mt-5 pulse" data-aos="fade-down">
                         <div className="col-lg-6">
                             <img src={process.env.PUBLIC_URL + "/images/tech/tech_consortium.png"} width="100%" alt="tech-img"/>
                         </div>
                         <div className="col-lg-6 tech-main">
                             <p className="mb-2 tech-subject text-center">consortium blockchain system</p>
-                            <div className="top-summary"></div>
                             <p className="contents tech text-center">
                                 RootChain guarantees stability and reliability based on the world-proven Hyperledger Fabric.<br/><br/>
                                 Hyperledger Fabric is a consortium blockchain that only authorized users can participate in,
