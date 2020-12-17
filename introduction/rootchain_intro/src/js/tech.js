@@ -75,7 +75,7 @@ class Tech extends Component{
                             <p className="contents tech text-center">
                                 RootChain guarantees stability and reliability based on the world-proven Hyperledger Fabric.<br/><br/>
                                 Hyperledger Fabric is a consortium blockchain that only authorized users can participate in,
-                                and companies and organizations with the same purpose or value form a consortium(Channel) and share information within it.
+                                and companies and organizations with the same purpose or value form a consortium and share information within it.
                             </p>
                         </div>
                     </div>
