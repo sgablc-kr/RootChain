@@ -140,7 +140,7 @@ function App() {
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
                     <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
                     <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
-                    <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; technology</a></li>
+                    <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; Technology</a></li>
                   </ul>
                 </div>
              </div>
