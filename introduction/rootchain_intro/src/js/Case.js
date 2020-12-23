@@ -32,6 +32,12 @@ class Case extends Component{
               subject: "Blockchain-based electronic document issuance and verification service",
               summary: "Issuing, verifying, and distributing electronic documents based on blockchain and distributed identification(DID) for self-sovereign electronic certificate and electronic document forgery verification and denial prevention",
               content: "DID is a technology that stores personal information in the user's terminal so that only necessary information is submitted for personal information authentication. The DID is recorded on the blockchain, so you can use it anytime, anywhere. Instead of being issued on paper and manually verifying several facts, it is issued as an electronic document on your own device and submitted electronically or printed out. The issuance history and verification history are stored in the blockchain, allowing forgery verification and non-repudiation."
+            },
+            {
+              img: process.env.PUBLIC_URL + "/images/case/case_bus.png",
+              subject: "City bus accounting sharing system",
+              summary: "Guaranteed reliability and transparency of accounting data through blockchain-based city bus semi-public accounting sharing system(ERP)",
+              content: "Using blockchain technology, the Busan City-Transportation Union-Bus transport company shares accounting data (information on all income and expenses) in real time. These data cannot be forged and can be verified in real time. This ensures the reliability of accounting data and transparency in financial execution."
             }
             
             /* 
