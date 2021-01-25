@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga";
 ReactGA.initialize('UA-187898394-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
-ReactGA.event({category, ation});
+ReactGA.event({category: 'benefit', action: 'click'});
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +16,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
