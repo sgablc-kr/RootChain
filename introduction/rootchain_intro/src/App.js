@@ -8,6 +8,9 @@ import Gs from "./js/Gs.js";
 import Case from "./js/Case.js";
 import Tech from "./js/tech.js";
 
+import ReactGA from "react-ga";
+
+
 function App() {
 
   return (
