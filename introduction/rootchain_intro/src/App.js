@@ -8,11 +8,6 @@ import Gs from "./js/Gs.js";
 import Case from "./js/Case.js";
 import Tech from "./js/tech.js";
 
-import ReactGA from "react-ga";
-ReactGA.initialize('UA-187898394-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
-
-
 function App() {
 
   return (
