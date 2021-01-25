@@ -8,6 +8,7 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga";
 ReactGA.initialize('UA-187898394-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.event({category, ation});
 
 ReactDOM.render(
   <React.StrictMode>
