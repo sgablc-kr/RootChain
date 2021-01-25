@@ -9,9 +9,6 @@ import ReactGA from "react-ga";
 ReactGA.initialize('UA-187898394-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-ReactGA.ga('send', 'event', 'event_category', 'event_action', 'event_label');
-
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
