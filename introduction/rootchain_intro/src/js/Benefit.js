@@ -1,10 +1,4 @@
 import React, {Component} from 'react';
-import ReactGA from "react-ga";
-ReactGA.event({
-  category: 'Benefit',
-  action: 'Benefit'
-});
-
 
 class Benefit extends Component{
     render(){
