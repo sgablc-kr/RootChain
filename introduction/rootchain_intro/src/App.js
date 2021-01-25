@@ -23,7 +23,7 @@ function App() {
 
           <div className="collapse navbar-collapse" id="R-nav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item"><a href="#benefit" className="nav-link" onClick="ReactGA.event({category: 'benefit', action: 'click'});">Benefit</a></li>
+              <li className="nav-item"><a href="#benefit" className="nav-link"><button  onClick="ReactGA.event({category: 'benefit', action: 'click'});">Benefit</button></a></li>
               <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
               <li className="nav-item"><a href="#tech" className="nav-link">Technology</a></li>
               <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
