@@ -9,7 +9,7 @@ import Case from "./js/Case.js";
 import Tech from "./js/tech.js";
 
 import ReactGA from "react-ga";
-ReactGA.pageview('/about/#benefit');
+ReactGA.pageview('/#benefit');
 
 function App() {
 
