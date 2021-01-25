@@ -8,12 +8,6 @@ import Gs from "./js/Gs.js";
 import Case from "./js/Case.js";
 import Tech from "./js/tech.js";
 
-import ReactGA from "react-ga";
-ReactGA.event({
-  category: 'User',
-  action: 'Created an Account'
-});
-
 function App() {
 
   return (
@@ -164,18 +158,6 @@ function App() {
         </div>
       </footer>
       {/*  END footer */}
-
-      <Container
-        onClick={() => {
-          GA.trackProfileSectionEvent({
-            action: "Link Button Clicked",
-            label: text,
-          });
-          window.location.href = link;
-        }}
-      >
-        {text}
-      </Container>
     </div>
   );
 }
