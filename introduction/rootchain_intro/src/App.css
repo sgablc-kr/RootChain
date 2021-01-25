@@ -70,6 +70,15 @@ p {
   color: #2B76B5 !important;
 }
 
+.btn_only{
+  background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+
+}
+
 .pulse:hover{
   animation: pulse; 
   animation-duration: 1s; 
