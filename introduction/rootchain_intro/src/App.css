@@ -70,19 +70,13 @@ p {
   color: #2B76B5 !important;
 }
 
-.btn_only{
+.btn_only, .btn_only:focus, .btn_only:active{
   background: none;
 	color: inherit;
-	border: none;
+	border: none !important;
 	font: inherit;
 	cursor: pointer;
 
-}
-
-.pulse:hover{
-  animation: pulse; 
-  animation-duration: 1s; 
-  animation-timing-function: ease-in-out;
 }
 
 .bounce:hover{

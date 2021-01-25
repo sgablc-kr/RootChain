@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 // Google Analytics
 import ReactGA from "react-ga";
-ReactGA.initialize('UA-187898394-1');
+ReactGA.initialize('UA-188024314-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 ReactGA.event({category: 'Benefit', action: 'click'});
 ReactGA.event({category: 'Case', action: 'click'});
