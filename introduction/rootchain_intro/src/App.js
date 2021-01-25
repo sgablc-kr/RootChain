@@ -30,10 +30,10 @@ function App() {
 
           <div className="collapse navbar-collapse" id="R-nav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item"><a href="#benefit" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Benefit', action: 'click'});">Benefit</button></a></li>
-              <li className="nav-item"><a href="#case" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Case', action: 'click'});">Case</button></a></li>
-              <li className="nav-item"><a href="#tech" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Technology', action: 'click'});">Technology</button></a></li>
-              <li className="nav-item"><a href="#contactUs" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'ContactUs', action: 'click'});">Contact us</button></a></li>
+              <li className="nav-item"><a href="#benefit" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'nav', action: 'click', label: 'benefit'});">Benefit</button></a></li>
+              <li className="nav-item"><a href="#case" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'nav', action: 'click', label: 'case'});">Case</button></a></li>
+              <li className="nav-item"><a href="#tech" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'nav', action: 'click', label: 'tech'});">Technology</button></a></li>
+              <li className="nav-item"><a href="#contactUs" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'nav', action: 'click', label: 'contactUs'});">Contact us</button></a></li>
             </ul>
           </div>
         </div>
