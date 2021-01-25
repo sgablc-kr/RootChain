@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 
-
 class Benefit extends Component{
-    render(){
-        
+    render(){   
           
         return (
             <>

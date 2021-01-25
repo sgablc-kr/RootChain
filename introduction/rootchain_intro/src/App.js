@@ -8,6 +8,8 @@ import Gs from "./js/Gs.js";
 import Case from "./js/Case.js";
 import Tech from "./js/tech.js";
 
+import ReactGA from "react-ga";
+
 function App() {
 
   return (
@@ -21,10 +23,10 @@ function App() {
 
           <div className="collapse navbar-collapse" id="R-nav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item"><a href="#benefit" className="nav-link">Benefit</a></li>
-              <li className="nav-item"><a href="#case" className="nav-link">Case</a></li>
-              {/* <li className="nav-item"><a href="#tech" className="nav-link">Technology</a></li> */}
-              <li className="nav-item"><a href="#contactUs" className="nav-link">Contact us</a></li>
+              <li className="nav-item"><a href="#benefit" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Benefit', action: 'click'});">Benefit</button></a></li>
+              <li className="nav-item"><a href="#case" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Case', action: 'click'});">Case</button></a></li>
+              <li className="nav-item"><a href="#tech" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'Technology', action: 'click'});">Technology</button></a></li>
+              <li className="nav-item"><a href="#contactUs" className="nav-link"><button className="btn_only" onClick="ReactGA.event({category: 'ContactUs', action: 'click'});">Contact us</button></a></li>
             </ul>
           </div>
         </div>
@@ -89,12 +91,12 @@ function App() {
       {/*  END case */}
 
       {/*  START tech */}
-       {/* <section className="R-section bg-sky" id="tech">
+      <section className="R-section bg-sky" id="tech">
         <div className="container">
           <Title sub="technology" main="how it works"></Title>
           <Tech></Tech>
         </div>
-      </section> */}
+      </section>
       {/*  END tech */}
 
 
@@ -139,8 +141,8 @@ function App() {
                   <ul className="navbar-nav ml-auto">
                     <li><a href="#main" className="footer-hover">-&nbsp;&nbsp;&nbsp; Main</a></li>
                     <li><a href="#benefit" className="footer-hover">-&nbsp;&nbsp;&nbsp; Benefit</a></li>
-                    {/* <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; technology</a></li> */}
                     <li><a href="#case" className="footer-hover">-&nbsp;&nbsp;&nbsp; Case</a></li>
+                    <li><a href="#tech" className="footer-hover">-&nbsp;&nbsp;&nbsp; Technology</a></li>
                   </ul>
                 </div>
              </div>
